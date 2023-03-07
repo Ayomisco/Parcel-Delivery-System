@@ -11,4 +11,5 @@ router.register(r'deliveryagents', DeliveryAgentViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+
 ]
